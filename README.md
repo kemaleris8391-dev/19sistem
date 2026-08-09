@@ -27,15 +27,15 @@ Bu proje; Kur'an-ı Kerim metni üzerindeki 19 sistemi iddialarını **Klasik İ
 
 | Dosya | Açıklama |
 | :--- | :--- |
-| 🎛️ [`studio_app.py`](file:///C:/Users/Kaose/Desktop/19sistem/studio_app.py) | **Stüdyo Kalitesinde Masaüstü GUI Arayüzü:** 7 Sekmeli CustomTkinter + Matplotlib analiz ve grafik dashboard'u. |
-| 🪐 [`kozmik_19_simulasyonu.py`](file:///C:/Users/Kaose/Desktop/19sistem/kozmik_19_simulasyonu.py) | **Kozmik Zaman & Evren Analojisi Betiği:** 8 Milyar insan x 13.8 Milyar yıl vs 19^K imkânsızlık hesaplayıcısı. |
-| ⚛️ [`quantum_19_grover.py`](file:///C:/Users/Kaose/Desktop/19sistem/quantum_19_grover.py) | **Qiskit Kuantum Devresi:** 5 Kübitlik kuantum süperpozisyonu ve Grover arama algoritması ile 19 durumunu (`\|10011\>`) tespit eder. |
-| 📖 [`quran_full_analyzer.py`](file:///C:/Users/Kaose/Desktop/19sistem/quran_full_analyzer.py) | **Metin Analiz Motoru:** Sure sayısı, Besmele harfleri ve kelime frekansları için tam kat testleri yapar. |
-| 📜 [`quran_real_text_analyzer.py`](file:///C:/Users/Kaose/Desktop/19sistem/quran_real_text_analyzer.py) | **Gerçek Metin Veri Seti:** Kur'an-ı Kerim yapısal metin verileri ve sayımları. |
-| 📊 [`monte_carlo_visualizer.py`](file:///C:/Users/Kaose/Desktop/19sistem/monte_carlo_visualizer.py) | **İstatistik & Görselleştirme:** Monte Carlo P-Değeri ve Z-Skoru hesaplar. |
-| ⚡ [`gpu_amd_19_sim.py`](file:///C:/Users/Kaose/Desktop/19sistem/gpu_amd_19_sim.py) | **AMD GPU Hızlandırma:** PyTorch DirectML kullanarak AMD RX 6700 XT ekran kartında simülasyon yapar. |
-| 🚀 [`cpu_19_sim.py`](file:///C:/Users/Kaose/Desktop/19sistem/cpu_19_sim.py) | **Multi-core CPU Simülasyonu:** Vektörize NumPy işlemleriyle CPU'da saniyede ~4.8 Milyon kitap analiz eder. |
-| ✅ [`verify_all_19_criteria.py`](file:///C:/Users/Kaose/Desktop/19sistem/verify_all_19_criteria.py) | **19 Kriter Doğrulayıcı:** 19 Kriterin matematiksel tam tutarlılık test aracı. |
+| 🎛️ [`studio_app.py`](studio_app.py) | **Stüdyo Kalitesinde Masaüstü GUI Arayüzü:** 7 Sekmeli CustomTkinter + Matplotlib analiz ve grafik dashboard'u. |
+| 🪐 [`kozmik_19_simulasyonu.py`](kozmik_19_simulasyonu.py) | **Kozmik Zaman & Evren Analojisi Betiği:** 8 Milyar insan x 13.8 Milyar yıl vs 19^K imkânsızlık hesaplayıcısı. |
+| ⚛️ [`quantum_19_grover.py`](quantum_19_grover.py) | **Qiskit Kuantum Devresi:** 5 Kübitlik kuantum süperpozisyonu ve Grover arama algoritması ile 19 durumunu (`\|10011\>`) tespit eder. |
+| 📖 [`quran_full_analyzer.py`](quran_full_analyzer.py) | **Metin Analiz Motoru:** Sure sayısı, Besmele harfleri ve kelime frekansları için tam kat testleri yapar. |
+| 📜 [`quran_real_text_analyzer.py`](quran_real_text_analyzer.py) | **Gerçek Metin Veri Seti:** Kur'an-ı Kerim yapısal metin verileri ve sayımları. |
+| 📊 [`monte_carlo_visualizer.py`](monte_carlo_visualizer.py) | **İstatistik & Görselleştirme:** Monte Carlo P-Değeri ve Z-Skoru hesaplar. |
+| ⚡ [`gpu_amd_19_sim.py`](gpu_amd_19_sim.py) | **AMD GPU Hızlandırma:** PyTorch DirectML kullanarak AMD RX 6700 XT ekran kartında simülasyon yapar. |
+| 🚀 [`cpu_19_sim.py`](cpu_19_sim.py) | **Multi-core CPU Simülasyonu:** Vektörize NumPy işlemleriyle CPU'da saniyede ~4.8 Milyon kitap analiz eder. |
+| ✅ [`verify_all_19_criteria.py`](verify_all_19_criteria.py) | **19 Kriter Doğrulayıcı:** 19 Kriterin matematiksel tam tutarlılık test aracı. |
 
 ---
 
