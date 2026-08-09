@@ -39,7 +39,7 @@ __kernel void simulate_19_books(
 
 def run_amd_gpu_simulation(total_simulations=10_000_000, num_criteria=1):
     print("=" * 70)
-    print("--- AMD RADEON RX 6700 XT GPU (OPENCL HIZLANDIRMA) SİMÜLASYONU ---")
+    print("--- AMD RADEON GPU (PYTORCH/DIRECTML HIZLANDIRMA) SİMÜLASYONU ---")
     print(f"Toplam Test Edilecek Kitap : {total_simulations:,}")
     print(f"Test Edilen Kriter Sayısı   : {num_criteria}")
     print("=" * 70)

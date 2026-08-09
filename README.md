@@ -1,6 +1,6 @@
 # 🌌 Kur'an 19 Sistemi Kuantum Bilgisayarı ve Stüdyo Arayüz Projesi
 
-Bu proje; Kur'an-ı Kerim metni üzerindeki 19 sistemi iddialarını **Klasik İşlemciler (CPU)**, **AMD Radeon RX 6700 XT GPU (PyTorch/DirectML)**, **Monte Carlo İstatistiksel Analiz**, **Kuantum Bilgisayarı (Qiskit Grover Algoritması)** ve **Stüdyo Kalitesinde Masaüstü Grafik Arayüzü (CustomTkinter GUI Dashboard)** kullanarak test eden profesyonel bir analiz yazılımıdır.
+Bu proje; Kur'an-ı Kerim metni üzerindeki 19 sistemi iddialarını **Klasik İşlemciler (CPU)**, **AMD Radeon GPU (PyTorch/DirectML)**, **Monte Carlo İstatistiksel Analiz**, **Kuantum Bilgisayarı (Qiskit Grover Algoritması)** ve **Stüdyo Kalitesinde Masaüstü Grafik Arayüzü (CustomTkinter GUI Dashboard)** kullanarak test eden profesyonel bir analiz yazılımıdır.
 
 ---
 
@@ -33,27 +33,15 @@ Bu proje; Kur'an-ı Kerim metni üzerindeki 19 sistemi iddialarını **Klasik İ
 | 📖 [`quran_full_analyzer.py`](quran_full_analyzer.py) | **Metin Analiz Motoru:** Sure sayısı, Besmele harfleri ve kelime frekansları için tam kat testleri yapar. |
 | 📜 [`quran_real_text_analyzer.py`](quran_real_text_analyzer.py) | **Gerçek Metin Veri Seti:** Kur'an-ı Kerim yapısal metin verileri ve sayımları. |
 | 📊 [`monte_carlo_visualizer.py`](monte_carlo_visualizer.py) | **İstatistik & Görselleştirme:** Monte Carlo P-Değeri ve Z-Skoru hesaplar. |
-| ⚡ [`gpu_amd_19_sim.py`](gpu_amd_19_sim.py) | **AMD GPU Hızlandırma:** PyTorch DirectML kullanarak AMD RX 6700 XT ekran kartında simülasyon yapar. |
+| ⚡ [`gpu_amd_19_sim.py`](gpu_amd_19_sim.py) | **AMD GPU Hızlandırma:** PyTorch DirectML kullanarak AMD Radeon ekran kartlarında simülasyon yapar. |
 | 🚀 [`cpu_19_sim.py`](cpu_19_sim.py) | **Multi-core CPU Simülasyonu:** Vektörize NumPy işlemleriyle CPU'da saniyede ~4.8 Milyon kitap analiz eder. |
 | ✅ [`verify_all_19_criteria.py`](verify_all_19_criteria.py) | **19 Kriter Doğrulayıcı:** 19 Kriterin matematiksel tam tutarlılık test aracı. |
 
 ---
 
-## 💻 Çalıştırma Komutları
+## 💻 Çalıştırma Komutu
 
 ```bash
-# 1. Profesyonel Masaüstü Stüdyo Arayüzü (ÖNERİLEN)
+# Profesyonel Masaüstü Stüdyo Arayüzü
 python studio_app.py
-
-# 2. Kozmik Zaman & Evren Analojisi Betiği
-python kozmik_19_simulasyonu.py
-
-# 3. Kuantum Bilgisayarı Simülasyonu
-python quantum_19_grover.py
-
-# 4. Kur'an-ı Kerim Yapısal Analizi
-python quran_full_analyzer.py
-
-# 5. Monte Carlo Grafik Üretici
-python monte_carlo_visualizer.py
 ```
