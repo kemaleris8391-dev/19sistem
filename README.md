@@ -4,9 +4,28 @@ Bu proje; Kur'an-ı Kerim metni üzerindeki 19 sistemi iddialarını **Klasik İ
 
 ---
 
-## 🎨 Masaüstü Stüdyo Arayüzü (GUI Dashboard)
+## 🚀 Hızlı Kurulum ve Çalıştırma (Quick Start)
 
-**`python studio_app.py`** komutu ile stüdyo kalitesindeki grafiksel arayüzü başlatabilirsiniz.
+### 1️⃣ Projeyi İndirin (Clone)
+```bash
+git clone https://github.com/kemaleris8391-dev/19sistem.git
+cd 19sistem
+```
+
+### 2️⃣ Gerekli Kütüphaneleri Yükleyin
+```bash
+pip install -r requirements.txt
+```
+
+### 3️⃣ Uygulamayı Başlatın
+```bash
+python studio_app.py
+```
+*(Windows kullanıcıları alternatif olarak klasör içindeki **`run.bat`** dosyasına çift tıklayarak da otomatik kurulum ve çalıştırma yapabilir).*
+
+---
+
+## 🎨 Masaüstü Stüdyo Arayüzü (GUI Dashboard)
 
 ![Stüdyo Arayüz Özellikleri](stüdyo_grafikler/bireysel_19_grafikleri.png)
 
@@ -28,6 +47,8 @@ Bu proje; Kur'an-ı Kerim metni üzerindeki 19 sistemi iddialarını **Klasik İ
 | Dosya | Açıklama |
 | :--- | :--- |
 | 🎛️ [`studio_app.py`](studio_app.py) | **Stüdyo Kalitesinde Masaüstü GUI Arayüzü:** 7 Sekmeli CustomTkinter + Matplotlib analiz ve grafik dashboard'u. |
+| ⚡ [`run.bat`](run.bat) | **Windows Otomatik Başlatıcı:** Çift tıklama ile kütüphaneleri kontrol edip uygulamayı çalıştırır. |
+| 📋 [`requirements.txt`](requirements.txt) | **Bağımlılık Listesi:** Proje için gerekli tüm Python kütüphaneleri. |
 | 🪐 [`kozmik_19_simulasyonu.py`](kozmik_19_simulasyonu.py) | **Kozmik Zaman & Evren Analojisi Betiği:** 8 Milyar insan x 13.8 Milyar yıl vs 19^K imkânsızlık hesaplayıcısı. |
 | ⚛️ [`quantum_19_grover.py`](quantum_19_grover.py) | **Qiskit Kuantum Devresi:** 5 Kübitlik kuantum süperpozisyonu ve Grover arama algoritması ile 19 durumunu (`\|10011\>`) tespit eder. |
 | 📖 [`quran_full_analyzer.py`](quran_full_analyzer.py) | **Metin Analiz Motoru:** Sure sayısı, Besmele harfleri ve kelime frekansları için tam kat testleri yapar. |
