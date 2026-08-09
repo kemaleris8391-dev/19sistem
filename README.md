@@ -4,24 +4,31 @@ Bu proje; Kur'an-ı Kerim metni üzerindeki 19 sistemi iddialarını **Klasik İ
 
 ---
 
-## 🚀 Hızlı Kurulum ve Çalıştırma (Quick Start)
+## 🚀 Hızlı Kurulum ve Çalıştırma Talimatı (Quick Start)
 
-### 1️⃣ Projeyi İndirin (Clone)
+### 💻 Yöntem 1: Git Terminal İle Hızlı Kurulum (Tavsiye Edilen)
+
+Terminal veya PowerShell açıp aşağıdaki komut bloklarını sırasıyla çalıştırın:
+
 ```bash
+# 1. Depoyu İndirin ve Klasöre Geçin
 git clone https://github.com/kemaleris8391-dev/19sistem.git
 cd 19sistem
-```
 
-### 2️⃣ Gerekli Kütüphaneleri Yükleyin
-```bash
+# 2. Gerekli Kütüphaneleri Otomatik Yükleyin
 pip install -r requirements.txt
-```
 
-### 3️⃣ Uygulamayı Başlatın
-```bash
+# 3. Stüdyo Arayüzünü Başlatın
 python studio_app.py
 ```
-*(Windows kullanıcıları alternatif olarak klasör içindeki **`run.bat`** dosyasına çift tıklayarak da otomatik kurulum ve çalıştırma yapabilir).*
+
+---
+
+### 🪟 Yöntem 2: Windows Çift Tıklama İle Otomatik Başlatma
+
+1. GitHub sayfasındaki yeşil **`Code`** butonuna basıp **`Download ZIP`** seçeneğiyle indirin ve klasöre çıkartın.
+2. Klasör içindeki **`run.bat`** dosyasına **çift tıklayın**.
+3. Sistem tüm bağımlılıkları otomatik kontrol edip stüdyo uygulamasını başlatacaktır.
 
 ---
 
